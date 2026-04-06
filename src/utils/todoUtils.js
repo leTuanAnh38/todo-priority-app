@@ -59,6 +59,6 @@ const total = list.length;
 return {
 total,
 completed,
-pending: total - completed,
+pending: total - completed + 1,
 };
 }
